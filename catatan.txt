@@ -1,0 +1,9 @@
+Tips : 
+
+Jika ingin melakukan php artisan migrate, maka hapus terlebih dahulu semua tabel di database
+
+1. php artisan migrate 
+2. php artisan make:migration
+3. php artisan make:seeder
+4. php artisan db:seed -> untuk database Seeder
+5. php artisan db:seed HumanResourcesSeeder -> untuk HumanResourcesSeeder
