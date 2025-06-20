@@ -16,7 +16,7 @@ class CheckRole
      *
      * @param  \Closure(\Illuminate\Http\Request): (\Symfony\Component\HttpFoundation\Response)  $next
      */
-    public function handle(Request $request, Closure $next, string ...$roles): Response
+  public function handle(Request $request, Closure $next, string ...$roles): Response
     {
         $employeeID = $request->user()->employee_id;
         $employee = Employee::find($employeeID);
