@@ -59,8 +59,7 @@
                             <tr>
                                 <th>Full Name</th>
                                 <th>Email</th>
-                                <th>Department</th>
-                                <th>Position</th>
+                                <th>Role</th>
                                 <th>Status</th>
                                 <th>Salary</th>
                                 <th class="text-end">Actions</th>
@@ -83,11 +82,6 @@
                                     </div>
                                 </td>
                                 <td>{{ $employee->email }}</td>
-                                <td>
-                                    <span class="badge bg-light-primary">
-                                        {{ $employee->department->name }}
-                                    </span>
-                                </td>
                                 <td>{{ $employee->role->title }}</td>
                                 <td>
                                     @if ($employee->status == 'active')
