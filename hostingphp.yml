@@ -2,8 +2,8 @@ project_name: humanresourcesapp
 framework: laravel
 database:
   name: humanresourcesapp
-  user: root
-  password:
+  user: humanresourcesapp
+  password: 12345
   host: localhost
   port: 3306
   auto_migrate: true
