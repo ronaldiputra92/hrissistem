@@ -146,12 +146,12 @@
                             </div>
 
                             <div class="mb-4">
-                                <label for="role_id" class="form-label fw-bold">Position</label>
+                                <label for="role_id" class="form-label fw-bold">Role</label>
                                 <div class="input-group">
                                     <span class="input-group-text"><i class="bi bi-person-workspace"></i></span>
                                     <select class="form-select @error('role_id') is-invalid @enderror"
                                             id="role_id" name="role_id" required>
-                                        <option value="">Select Position</option>
+                                        <option value="">Select Role</option>
                                         @foreach ($roles as $role)
                                         <option value="{{ $role->id }}" {{ old('role_id', $employee->role_id) == $role->id ? 'selected' : '' }}>
                                             {{ $role->title }}

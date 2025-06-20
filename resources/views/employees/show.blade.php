@@ -105,7 +105,7 @@
                         </div>
 
                         <div class="mb-4">
-                            <label class="form-label fw-bold text-primary">Position</label>
+                            <label class="form-label fw-bold text-primary">Role</label>
                             <div class="input-group">
                                 <span class="input-group-text bg-light"><i class="bi bi-person-workspace mb-2"></i></span>
                                 <input type="text" class="form-control bg-light" value="{{ $employee->role->title }}" readonly>
